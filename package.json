@@ -1,8 +1,13 @@
 {
   "name": "yegg",
   "version": "1.0.0",
-  "main": "index.js",
+  "main": "yegg.js",
   "repository": "https://github.com/shovity/yegg.git",
   "author": "shovity <shovity@gmail.com>",
-  "license": "MIT"
+  "license": "MIT",
+  "bin": "./yegg.js",
+  "dependencies": {
+    "jsdom": "^19.0.0",
+    "yargs": "^17.3.1"
+  }
 }
